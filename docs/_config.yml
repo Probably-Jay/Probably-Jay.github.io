@@ -31,10 +31,23 @@ github_username:  Probably-Jay
 # Build settings
 #theme: minimal-mistakes-jekyll
 remote_theme: "mmistakes/minimal-mistakes@4.24.0"
-minimal_mistakes_skin: "air" #  "default" "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
+minimal_mistakes_skin: "aqua" #  "default" "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 locale: "en-GB"
 repository: Probably-Jay/Probably-Jay.github.io
 
+author:
+  name: "Jay Bretherton"
+  #avatar: "/assets/images/bio-photo.jpg"
+  bio: "Studying Computer Games Technology at the University of Abertay Dundee. Formerly VR developer at [LobVR.](https://www.linkedin.com/company/lobvr)" # Note: Markdown is allowed
+  location: "Scotland"
+  links:
+    - label: "Itch.io"
+      icon: "fab fa-fw fa-itch-io"
+      url: "https://probablyjay.itch.io/"
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/Probably-Jay"
+      
 defaults:
   # _posts
   - scope:
@@ -42,11 +55,13 @@ defaults:
       type: posts
     values:
       layout: single
+      author: "Jay Bretherton"
       author_profile: true
-      read_time: false
-      comments: true
-      share: true
-      related: true
+      read_time: true
+      comments: false
+      share: false
+      related: false
+
 
 
 plugins:
