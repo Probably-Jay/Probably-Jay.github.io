@@ -1,7 +1,7 @@
 ---
 title: "Firelight"
 date: 2019-01-27
-last_modified_at: 2023-05-30
+last_modified_at: "now"
 categories:
   - Project Postmortem
 tags:
@@ -16,7 +16,10 @@ header:
   teaser: /assets/images/Projects/Firelight/FTitle.png
   og_image: /assets/images/Projects/Firelight/FTitle.png
   caption: "Firelight from above"
-excerpt_separator: "<!--more-->"
+  actions: 
+   - label: "Play Firelight"
+     url: "https://probablyjay.itch.io/firelight"
+excerpt: "Learning unity: making a game about staying warm and finding friends."
 tagline: "Learning unity: making a game about staying warm and finding friends."
 photo1:
   - url: "/assets/images/Projects/Firelight/F2.png"
@@ -32,13 +35,7 @@ The fires are going out, it won't be long before there is no light left at all.
 Unless you find some other source of warmth in this unforgiving world, 
 your death is almost certain.*
 
-[Play Firelight](https://probablyjay.itch.io/firelight){: .btn .btn--success}
-
-<!--more-->
-
 Firelight was our submission for Global Game Jam 2019. Made alongside my good friend Matt Stark, this was my first global game 
-jam and only my second foray into Unity's game engine. 
-
-<!--more-->
+jam and only my second foray into Unity's game engine.
 
 {% include gallery id="photo1" caption="Firelight Gameplay" %}
