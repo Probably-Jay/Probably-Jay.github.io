@@ -12,13 +12,17 @@ tags:
   - Engine-Learning
 
 header:
+  overlay_image: /assets/images/Projects/Firelight/F1-2.png
   teaser: /assets/images/Projects/Firelight/FTitle.png
-  header: /assets/images/Projects/Firelight/F1.png2
   og_image: /assets/images/Projects/Firelight/FTitle.png
+  caption: "Firelight from above"
+excerpt: "Global Game Jam 2019: Firelight"
+tagline: "Learning unity: making a game about staying warm and finding friends."
 photo1:
-  image_path: "/assets/images/Projects/Firelight/F1.png"
-  alt: "Firelight Screenshot"
-  title: "Firelight"
+  - url: "/assets/images/Projects/Firelight/F2.png"
+    image_path: "/assets/images/Projects/Firelight/F2.png"
+    alt: "Firelight Screenshot"
+    title: "Firelight"
 ---
 {% comment %} last_modified_at: {{ "now" | date: "%Y-%m-%d" }} {% endcomment %}
 # Firelight
@@ -32,5 +36,4 @@ your death is almost certain.*
 
 Firelight was our submission for Global Game Jam 2019. Made alongside my good friend Matt Stark, this was my first global game 
 jam and only my second foray into Unity's game engine. 
-
-![image-center](/assets/images/Projects/Firelight/F3.png){: .align-center}
+ 

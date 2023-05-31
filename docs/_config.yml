@@ -20,6 +20,7 @@ description: >- # this means to ignore newlines until "baseurl:"
 github_username: Probably-Jay
 minimal_mistakes_skin: "default"
 search: true
+breadcrumbs: true
 
 # Build settings
 markdown: kramdown
@@ -29,6 +30,7 @@ permalink: /:categories/:title/
 paginate: 5 # amount of posts to show
 paginate_path: /page:num/
 timezone: Etc/GMT # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+
 
 include:
   - _pages
@@ -98,9 +100,10 @@ defaults:
       layout: single
       author_profile: true
       read_time: true
-      comments: false
+      comments: true
       share: true
       related: true
+      show_date: true
   # _pages
   - scope:
       path: "_pages"
