@@ -12,7 +12,6 @@
 
 <div class="{{ include.type | default: 'list' }}__item">
   <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
-   
     <h2 class="archive__item-title no_toc" itemprop="headline">
       {% if post.link %}
         <a href="{{ post.link }}">{{ title }}</a> <a href="{{ post.url | relative_url }}" rel="permalink"><i class="fas fa-link" aria-hidden="true" title="permalink"></i><span class="sr-only">Permalink</span></a>
@@ -22,7 +21,11 @@
     </h2>
     {% if true or include.type == "grid" and teaser %}
     <div class="archive__item-teaser">
-      <img src="{{ teaser | relative_url }}" alt="">
+      {% if post.link %}
+      <a href="{{ post.link }}"><img src="{{ teaser | relative_url }}" alt=""></a> <a href="{{ post.url | relative_url }}" rel="permalink"><i class="fas fa-link" aria-hidden="true" title="permalink"></i><span class="sr-only">Permalink</span></a>
+      {% else %}
+      <a href="{{ post.url | relative_url }}" rel="permalink"><img src="{{ teaser | relative_url }}" alt=""></a>
+      {% endif %}
     </div>
     {% endif %}
     {% include page__meta.html type=include.type %}
