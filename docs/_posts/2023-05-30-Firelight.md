@@ -39,3 +39,4 @@ Firelight was our submission for Global Game Jam 2019. Made alongside my good fr
 jam and only my second foray into Unity's game engine.
 
 {% include gallery id="photo1" caption="Firelight Gameplay" %}
+
