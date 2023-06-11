@@ -17,8 +17,8 @@ header:
   actions: 
    - label: "Play Firelight"
      url: "https://probablyjay.itch.io/firelight"
-excerpt: "Learning unity: making a game about staying warm and finding friends."
-tagline: "Learning unity: making a game about staying warm and finding friends."
+excerpt: "Learning Unity: Making a game about staying warm and finding friends."
+tagline: "Learning Unity: Making a game about staying warm and finding friends."
 photo1:
   - url: "/assets/images/Projects/Firelight/F2.png"
     image_path: "/assets/images/Projects/Firelight/F2.png"
@@ -35,9 +35,16 @@ your death is almost certain.*
 Firelight was our submission for Global Game Jam 2019. Made alongside my good friend Matt Stark, this was my first global game 
 jam and only my second foray into Unity's game engine.
 
+You play as a lost soul wandering between campfires, 
+trying to weather a freezing cold storm. The people you meet are all similarly lost and alone, 
+but if you manage to convince them to come along with you then you all might just survive.  
+
 {% include gallery id="photo1" caption="Firelight Gameplay" %}
 
-FooBar
+Taking place on Abertay’s campus, this was a really nice chance to get to grips developing something from scratch 
+in only a couple of days. I had only written in C# a handful of times since first learning the language 
+during my NC with XNA MonoGame.
+
 
 {% include video id="LCdt8rgqWDE" provider="youtube" %}
 
