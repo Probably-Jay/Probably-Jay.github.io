@@ -45,7 +45,6 @@ Taking place on Abertay’s campus, this was a really nice chance to get to grip
 in only a couple of days. I had only written in C# a handful of times since first learning the language 
 during my NC with with [*XNA MonoGame*](https://www.monogame.net). 
 
-![img.png](img.png)
 
 
 
