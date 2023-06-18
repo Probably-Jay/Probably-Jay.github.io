@@ -9,15 +9,15 @@ tags:
   - C#
   - Unity
 header:
-  overlay_image: /assets/images/Projects/Isometric-Exercise/Opening.png
+  overlay_image: /assets/images/Projects/Isometric-Exercise/Opening.jpg
   teaser: /assets/images/Projects/Isometric-Exercise/iso.png
   og_image: /assets/images/Projects/Isometric-Exercise/iso.png
   caption: "Opening of Isometric Exercise"
   actions: 
    - label: "Play Isometric Exercise"
      url: "https://probablyjay.itch.io/isometric-exercise"
-excerpt: "Stuck in a dimension you cannot understand."
-tagline: "Stuck in a dimension you cannot understand."
+excerpt: "Stuck in a dimension beyond comprehension."
+tagline: "Stuck in a dimension beyond comprehension."
 ---
 # Isometric Exercise
 > *.*
