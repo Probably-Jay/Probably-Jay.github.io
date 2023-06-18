@@ -105,7 +105,7 @@ $type-size-8: 0.625em !default;
   line-height: 1.5;
   overflow-x: scroll;
  // white-space: pre-wrap;
-  //-ms-overflow-style: none;  /* Hide scrollbar IE and Edge */
+  -ms-overflow-style: none;  /* Hide scrollbar IE and Edge */
   scrollbar-width: none;  /* Hide scrollbar Firefox */
 }
 .highlight::-webkit-scrollbar { /* Hide scrollbar for Chrome, Safari and Opera */
