@@ -45,8 +45,10 @@ Taking place on Abertay’s campus, this was a really nice chance to get to grip
 in only a couple of days. I had only written in C# a handful of times since first learning the language 
 during my NC with with [*XNA MonoGame*](https://www.monogame.net). 
 
-
-
+My role in this project was mostly gameplay programming, writing the logic for the main *warmth* mechanic in the game, 
+player movement, as well as designing the layout of the level. I also took the chance to dip my toe in other disciplines, 
+writing the story and dialogue, and recording the sound effects used thought the game. This turned out to be great practice 
+in using teammate’s modules, implementing dialogue in the module written by my partner.
 
 ````csharp
 protected override IEnumerator ChatCoroutine()
@@ -81,5 +83,14 @@ protected override IEnumerator ChatCoroutine()
 }
 
 ````
+<figcaption>Snippet from a dialogue file</figcaption>
+
+Despite the tight deadline, we finished the game with plenty of time to show it off. 
+It was popular at the Jam, earning us both a Unity t-shirt from our Uni's rep, which he insisted were 
+*“not prizes, as the Jam wasn't a competition”*. 
+
+Overall, I really like this game and I’m glad we had the chance to make it.
+
+### Watch a full play-through here:
 
 {% include video id="LCdt8rgqWDE" provider="youtube" %}
