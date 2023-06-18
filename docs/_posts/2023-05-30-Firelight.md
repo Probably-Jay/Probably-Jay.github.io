@@ -48,3 +48,36 @@ during my NC with XNA MonoGame.
 
 {% include video id="LCdt8rgqWDE" provider="youtube" %}
 
+````csharp
+protected override IEnumerator ChatCoroutine()
+{
+    Cutscene.Instance.StartCutscene();
+ 
+    // move camera to cutscene view 
+    Cutscene.Instance.Transition(GameController.Instance.Player.transform.position);
+    while (Cutscene.Instance.IsTransitionInProgress()) { yield return null; }
+    
+    ...
+    
+    // dialogue choice
+    Cutscene.Instance.DialogueDecision("Who are you?", "I’m a friend.", "I can’t remember.", true);
+    while (Cutscene.Instance.IsDialogueInProgress()) { yield return null; }
+
+    Cutscene.Instance.Transition(GameController.Instance.Player.transform.position);
+    while (Cutscene.Instance.IsTransitionInProgress()) { yield return null; }
+
+    // choice A
+    if (Cutscene.Instance.GetDecisionOutcome())
+    {
+        Cutscene.Instance.Dialogue("I’m a friend.", true);
+        while (Cutscene.Instance.IsDialogueInProgress()) { yield return null; }
+    }
+    else // choice B
+    {
+        Cutscene.Instance.Dialogue("I can’t remember.", true);
+        while (Cutscene.Instance.IsDialogueInProgress()) { yield return null; }
+    }
+    ...
+}
+
+````
