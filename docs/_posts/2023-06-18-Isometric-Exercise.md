@@ -11,8 +11,8 @@ tags:
   - Unity
 header:
   overlay_image: /assets/images/Projects/Isometric-Exercise/Opening.jpg
-  teaser: /assets/images/Projects/Isometric-Exercise/iso/Iso-tight.png
-  og_image: /assets/images/Projects/Isometric-Exercise/iso/Iso-tight.png
+  teaser: /assets/images/Projects/Isometric-Exercise/Iso/Iso-tight.png
+  og_image: /assets/images/Projects/Isometric-Exercise/Iso/Iso-tight.png
   caption: "Opening of Isometric Exercise"
   actions: 
    - label: "Play Isometric Exercise"
