@@ -33,7 +33,7 @@ The fires are going out, it won't be long before there is no light left at all.
 Unless you find some other source of warmth in this unforgiving world, 
 your death is almost certain.*
 
-Firelight was our submission for Global Game Jam 2019. Made alongside my good friend Matt Stark, this was my first global game 
+Firelight was our submission for Global Game Jam 2019. Made alongside my good friend *Matt Stark*, this was my first global game 
 jam and only my second foray into Unity's game engine.
 
 You play as a lost soul wandering between campfires, 
