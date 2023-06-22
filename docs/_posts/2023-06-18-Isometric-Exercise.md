@@ -23,3 +23,5 @@ tagline: "Stuck in a dimension beyond comprehension."
 # Isometric Exercise
 > *Perhaps this will change your perspective.*
 
+[Inspired by](https://wobblylabs.com/projects/wobbler)
+
