@@ -20,8 +20,8 @@ header:
 excerpt: "Inspired: What would our world look like to a flat being?"
 tagline: "Inspired: What would our world look like to a flat being?"
 photo1:
-  - url: "/assets/images/Projects/Isometric-Exercise/wobbler.webp"
-    image_path: "/assets/images/Projects/Isometric-Exercise/wobbler.webp"
+  - url: "/assets/images/Projects/Isometric-Exercise/wobbler.png"
+    image_path: "/assets/images/Projects/Isometric-Exercise/wobbler.png"
     alt: "The Wobbler lighting up a room"
     title: "The Wobbler (sourcegaming)"
 photo2:
