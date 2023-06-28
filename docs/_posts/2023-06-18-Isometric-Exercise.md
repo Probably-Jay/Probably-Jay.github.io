@@ -17,11 +17,21 @@ header:
   actions: 
    - label: "Play Isometric Exercise"
      url: "https://probablyjay.itch.io/isometric-exercise"
-excerpt: "Stuck in a dimension beyond comprehension."
-tagline: "Stuck in a dimension beyond comprehension."
+excerpt: "Inspired: What would our world look like to a flat being?"
+tagline: "Inspired: What would our world look like to a flat being?"
+photo1:
+  - url: "/assets/images/Projects/Isometric-Exercise/wobbler.webp"
+    image_path: "/assets/images/Projects/Isometric-Exercise/wobbler.webp"
+    alt: "The Wobbler lighting up a room"
+    title: "The Wobbler (sourcegaming)"
+photo2:
+  - url: "/assets/images/Projects/Isometric-Exercise/Opening.jpg"
+    image_path: "/assets/images/Projects/Isometric-Exercise/Opening.jpg"
+    alt: "The view from the start of the game"
+    title: "Opening of Isometric Exercise"
 ---
 # Isometric Exercise
-> *Perhaps this will change your perspective.*
+> *"Perhaps this will change your perspective."*
 
 This was another little game jam I did along with friends *Emelia Fernandez* and *Matt Stark*. 
 We had just come back from the V&A's [Design/Play/Disrupt exhibition](https://www.vam.ac.uk/exhibitions/videogames),
@@ -31,6 +41,16 @@ and were completely enamoured with Robin Baumgarten's [*The Wobbler*](https://wo
 with a single input moving the player (a point of light) up and down a single strip of LEDs. 
 The controller being an old spring doorstop, apparently inspired by a video of a cat playing with one.
 
-Baumgarten managed to squeeze a huge amount of interaction out of this incredibly simple set-up.
+{% include gallery id="photo1" %}
 
+Baumgarten managed to squeeze a huge amount of interaction out of this incredibly simple set-up. Playing with this one dimensional character,
+we wondered how a game like this would look in first person. And so the idea for Isometric Exercise was born.
+
+We settled on a 2D character exploring our 3D world. Our character would view a single 1D slice of the world, much as we view a 2D plane, gaining depth perception from
+perspective and context clues. We took this band of pixels and stretched them across the whole screen, and the results... were really quite good.
+
+{% include gallery id="photo2" caption="The first frames of Isometric Exercise" %}
+
+It's surprisingly readable. To my eyes at least. You can see an opening between two walls that stretches off into another room, which 
+contains some large red object.
 
