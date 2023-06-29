@@ -25,8 +25,8 @@ photo1:
     alt: "The Wobbler lighting up a room"
     title: "The Wobbler (sourcegaming)"
 photo2:
-  - url: "/assets/images/Projects/Isometric-Exercise/Opening.jpg"
-    image_path: "/assets/images/Projects/Isometric-Exercise/Opening.jpg"
+  - url: "/assets/images/Projects/Isometric-Exercise/open.gif"
+    image_path: "/assets/images/Projects/Isometric-Exercise/open.gif"
     alt: "The view from the start of the game"
     title: "Opening of Isometric Exercise"
 ---
@@ -49,7 +49,7 @@ we wondered how a game like this would look in first person. And so the idea for
 We settled on a 2D character exploring our 3D world. Our character would view a single 1D slice of the world, much as we view a 2D plane, gaining depth perception from
 perspective and context clues. We took this band of pixels and stretched them across the whole screen, and the results... were really quite good.
 
-{% include gallery id="photo2" caption="The first frames of Isometric Exercise" %}
+{% include gallery id="photo2" caption="The opening of Isometric Exercise" %}
 
 It's surprisingly readable. To my eyes at least. You can see an opening between two walls that stretches off into another room, which 
 contains some large red object.
