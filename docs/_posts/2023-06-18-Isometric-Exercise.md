@@ -54,3 +54,4 @@ perspective and context clues. We took this band of pixels and stretched them ac
 It's surprisingly readable. To my eyes at least. You can see an opening between two walls that stretches off into another room, which 
 contains some large red object.
 
+
