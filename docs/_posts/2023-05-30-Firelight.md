@@ -84,7 +84,7 @@ protected override IEnumerator ChatCoroutine()
 }
 
 ````
-<figcaption>Snippet from a dialogue file</figcaption>
+<figcaption>Snippet from a dialogue file.</figcaption>
 
 Despite the tight deadline, we finished the game with plenty of time to show it off. 
 It was popular at the Jam, earning us both a Unity t-shirt from our Uni's rep, which he insisted were 

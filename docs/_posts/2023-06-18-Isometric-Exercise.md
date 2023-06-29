@@ -17,8 +17,8 @@ header:
   actions: 
    - label: "Play Isometric Exercise"
      url: "https://probablyjay.itch.io/isometric-exercise"
-excerpt: "Inspired: What would our world look like to a flat being?"
-tagline: "Inspired: What would our world look like to a flat being?"
+excerpt: "Inspired: What would our world look like if you were flat?"
+tagline: "Inspired: What would our world look like if you were flat?"
 photo1:
   - url: "/assets/images/Projects/Isometric-Exercise/wobbler.png"
     image_path: "/assets/images/Projects/Isometric-Exercise/wobbler.png"
@@ -29,6 +29,16 @@ photo2:
     image_path: "/assets/images/Projects/Isometric-Exercise/open.gif"
     alt: "The view from the start of the game"
     title: "Opening of Isometric Exercise"
+
+gallery1:
+  - url: /assets/images/Projects/Isometric-Exercise/up2.gif
+    image_path: /assets/images/Projects/Isometric-Exercise/up2.gif
+    alt: "Rising with the effect"
+    title: "Rising with the effect"
+  - url: /assets/images/Projects/Isometric-Exercise/up3.gif
+    image_path: /assets/images/Projects/Isometric-Exercise/up3.gif
+    alt: "Rising without the effect"
+    title: "Rising without the effect"
 ---
 # Isometric Exercise
 > *"Perhaps this will change your perspective."*
@@ -52,6 +62,16 @@ perspective and context clues. We took this band of pixels and stretched them ac
 {% include gallery id="photo2" caption="The opening of Isometric Exercise" %}
 
 It's surprisingly readable. To my eyes at least. You can see an opening between two walls that stretches off into another room, which 
-contains some large red object.
+contains some large red object. As you move through, your view of the world changes just as it would in 3D.
+I think Matt's shader is doing a lot to help here, with the emphasised black-line edges and distance fog you'd be
+forgiven for not noticing that there is only one dimension information in the pixels on your screen. 
+
+The real mind bending part of the experience is when we give you the ability to move through the third dimension.
+While all that is happening is the line of pixels you can see is sweeping up and down, it looks like the
+world is shifting and changing in a way slightly beyond your comprehension.
+
+{% include gallery id="gallery1" caption="Comparison of the rising effect with and without the shader active." %}
+
+We designed evey aspect of the level to make moving in this way dynamic and striking. The wall texture changes,  
 
 
