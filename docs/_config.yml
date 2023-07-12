@@ -55,6 +55,7 @@ plugins:
   - jekyll-feed
   - jemoji
   - jekyll-include-cache
+  - jekyll-seo-tag
 
 author:
   name   : "Jay Bretherton"
@@ -119,3 +120,5 @@ category_archive:
 tag_archive:
   type: liquid
   path: /tags/
+  
+logo: "/assets/images/Logo/TransNew.png"
