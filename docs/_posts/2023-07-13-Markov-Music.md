@@ -14,15 +14,16 @@ header:
   teaser: /assets/images/Projects/Markov-Music/Square.png
   og_image: /assets/images/Projects/Markov-Music/Square.png
   caption: "Chords Selected"
-  #actions: 
-  # - label: "Play Isometric Exercise"
-    # url: "https://probablyjay.itch.io/isometric-exercise"
-#excerpt: "Inspired: What would our world look like if you were flat?"
-tagline: "Music"
+  actions: 
+   - label: "Listen"
+     url: "/assets/audio/Markov-Music.mp3"
+excerpt: "Procedurally generating a game's soundtrack. Markov Chains meet Functional harmony."
+tagline: "Procedurally generating a game's soundtrack. Markov Chains meet Functional harmony."
 ---
 
-<audio controls>
+<audio controls autoplay>
   <source src="/assets/audio/Markov-Music.mp3" type="audio/mp3">
+    Your browser does not support the audio element :(
 </audio>
 
 
