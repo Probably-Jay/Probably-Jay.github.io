@@ -1,9 +1,9 @@
 ---
 title: "This Website is a Work in Progress..."
 categories:
-  - misc
+  - Misc
 tags:
-  - meta
+  - Meta
 ---
 Hi, thanks for visiting my blog/portfolio website. As you can see there isn't a huge amount on here and some of my
 posts are incomplete. I am currently working on updating this around my work and job search, so there is 

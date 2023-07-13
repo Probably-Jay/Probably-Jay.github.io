@@ -6,25 +6,49 @@ categories:
   - Project-Postmortems
 tags:
   - Coursework
-  - C++
+  - C&#8203++
   - SFML
-  - Procedural
+  - Procedural-Generation
+  - Multithreading
+  - Audio
 header:
   overlay_image: /assets/images/Projects/Markov-Music/Long.png
+  overlay_filter: rgba(0, 0, 0, 0.5)
   teaser: /assets/images/Projects/Markov-Music/Square.png
   og_image: /assets/images/Projects/Markov-Music/Square.png
   caption: "Chords Selected"
-  actions: 
-   - label: "Listen"
-     url: "/assets/audio/Markov-Music.mp3"
+  actions:
+   - label: "Download"
+     url: "/download/Markov-Music.zip"
 excerpt: "Procedurally generating a game's soundtrack. Markov Chains meet Functional harmony."
 tagline: "Procedurally generating a game's soundtrack. Markov Chains meet Functional harmony."
----
+photo1:
+  - url: "/assets/images/Projects/Markov-Music/Functional-Harmony.png"
+    image_path: "/assets/images/Projects/Markov-Music/Functional-Harmony.png"
+    alt: "Diagram of the functional harmony used to generate chord progressions."
+    title: "Functional harmony. Hutchinson, R., 2020. Music Theory for the 21st-Century Classroom." 
 
-<audio controls autoplay>
+---
+# Markov Music
+>"Took me a second to realise the audio was procedural..."
+
+This project was half a piece of coursework for a module on procedural generation that I took in my third year of studies.
+As the challenge was procedural generation, 
+
+<br>
+<audio controls>
   <source src="/assets/audio/Markov-Music.mp3" type="audio/mp3">
     Your browser does not support the audio element :(
 </audio>
+<figcaption>Recording of the music generated</figcaption>
+<br>
+
+
+
+{% include gallery id="photo1" caption="Diagram of the functional harmony used" %}
+
+
+
 
 
 
