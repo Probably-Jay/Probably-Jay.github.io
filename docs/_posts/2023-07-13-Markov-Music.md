@@ -18,7 +18,7 @@ header:
   og_image: /assets/images/Projects/Markov-Music/Square.png
   caption: "Chords Selected"
   actions:
-   - label: "Download"
+   - label: "Download exe"
      url: "/download/Markov-Music.zip"
 excerpt: "Procedurally generating a game's soundtrack. Markov Chains meet Functional harmony."
 tagline: "Procedurally generating a game's soundtrack. Markov Chains meet Functional harmony."
@@ -33,7 +33,9 @@ photo1:
 >"Took me a second to realise the audio was procedural..."
 
 This project was half a piece of coursework for a module on procedural generation that I took in my third year of studies.
-As the challenge was procedural generation, 
+We were tasked to create a procedural system which could generate aspects of a game.
+I decided to create a procedural soundtrack - to go alongside some terrain generation. 
+This resulted in some surprisingly nice music, which you can listen to right below.
 
 <br>
 <audio controls>
