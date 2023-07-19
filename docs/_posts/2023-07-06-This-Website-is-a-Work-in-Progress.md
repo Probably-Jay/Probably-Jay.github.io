@@ -11,3 +11,6 @@ quite the back-catalogue of projects I'm yet to talk about. Hopefully as time go
 up to date, but in the meantime please look on this as a small selection of some of the projects I've worked on. 
 
 Be sure to check back, and I'll likely have added some more  c&#160;o&#160;n&#160;t&#160;e&#160;n&#160;t.
+
+In the meantime...
+[Why not check out my portfolio over on itchio?](https://probablyjay.itch.io/){: .btn .btn--success}

@@ -45,9 +45,23 @@ This resulted in some surprisingly nice music, which you can listen to right bel
 <figcaption>Recording of the music generated</figcaption>
 <br>
 
+As every aspect of this music is procedural, there were several layers to the generation. We'll walk each through them, staring with the most abstract.
 
+### Generating nice chord progressions
 
 {% include gallery id="photo1" caption="Diagram of the functional harmony used" %}
+
+
+### Generating interesting chords
+
+
+### Generating dynamic melodies
+
+
+### Generating different pitches
+
+
+### Creating sound
 
 
 
