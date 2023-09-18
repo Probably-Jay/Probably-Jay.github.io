@@ -2,6 +2,9 @@ _site
 .sass-cache
 .jekyll-metadata
 .iws
+/.obsidian/
+/.vs/
+*sln
 workspace.xml
 tasks.xml
 Gemfile.lock

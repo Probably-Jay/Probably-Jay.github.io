@@ -14,8 +14,8 @@ tags:
 header:
   overlay_image: /assets/images/Projects/Markov-Music/Long.png
   overlay_filter: rgba(0, 0, 0, 0.5)
-  teaser: /assets/images/Projects/Markov-Music/Square.png
-  og_image: /assets/images/Projects/Markov-Music/Square.png
+  teaser: /assets/images/Projects/Markov-Music/Squareish.jpg
+  og_image: /assets/images/Projects/Markov-Music/Squareish.jpg
   caption: "Chords Selected"
   actions:
    - label: "Download exe"

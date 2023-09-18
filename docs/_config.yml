@@ -60,10 +60,12 @@ plugins:
 author:
   name   : "Jay Bretherton"
   avatar : "/assets/images/bio-photo.jpg"
-  bio    : "Software Developer. Computer Games Technology graduate from the University of Abertay Dundee. 
-  Formerly VR developer at [LobVR](https://www.linkedin.com/company/lobvr)."
+  bio    : "Software Developer. Computer Games Technology graduate from the University of Abertay Dundee."
   location: "Scotland"
   links:
+    - label: "Email"
+      icon: "fa fa-fw fa-envelope"
+      url: "mailto:email@jaybretherton.xyz"
     - label: "Itch.io"
       icon: "fab fa-fw fa-itch-io"
       url: "https://probablyjay.itch.io/"
@@ -80,9 +82,6 @@ author:
 
 footer:
   links:
-    - label: "Itch.io"
-      icon: "fab fa-fw fa-itch-io"
-      url: "https://probablyjay.itch.io/"
     - label: "Linkedin"
       icon: "fab fa-fw fa-linkedin"
       url: "https://www.linkedin.com/in/jay-bretherton-24b9571b9/"
