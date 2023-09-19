@@ -16,7 +16,7 @@ header:
   # caption: "A character animated by the system."
   actions:
   - label: "Source"
-     url: "https://github.com/Probably-Jay/AnimationSystem/tree/master"
+    url: "https://github.com/Probably-Jay/AnimationSystem/tree/master"
 #    - label: "Download exe"
 #      url: "/download/Animation-System.zip"
 # excerpt: "Procedurally generating a game's soundtrack. Markov Chains meet Functional harmony."
