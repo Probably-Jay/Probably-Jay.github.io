@@ -39,6 +39,8 @@ The system was created to be used with a propriety C++ engine, which is what is 
 
 {% include gallery id="photo1" caption="Animation system demonstrated with a walk/run cycle and movement-speed combined blend. Also shown with Inverse Kinematics on the hand." %}
 
+
+
 ````cpp
 AnimationSystem::PureResult AnimatedMeshApp::LoadMeshAndAnimation()
 {
@@ -92,3 +94,4 @@ AnimationSystem::PureResult AnimatedMeshApp::LoadMeshAndAnimation()
    return AnimationSystem::PureResult::OK();
 }
 ````
+<figcaption>Snippet showing the API for creating animation objects.</figcaption>
