@@ -29,3 +29,57 @@ photo1:
 # Anmation System 
 
 {% include gallery id="photo1" caption="Animation system demonstrated with a walk/run cycle and movement-speed combined blend. Also shown with Inverse Kinematics on the hand." %}
+
+````cpp
+AnimationSystem::PureResult AnimatedMeshApp::LoadMeshAndAnimation()
+{
+   // create an animated object, returns Value/Error discriminated union
+   auto createPlayerResult = animation_system_->CreateAnimatedObject("Player", 
+                                                                     "xbot/xbot.scn") ;
+
+   // early return the error if there is one 
+   if(createPlayerResult.IsError())
+      return createPlayerResult.ToPureResult();
+
+
+   // move player from result to member variable
+   player_ = createPlayerResult.Take();
+
+
+   // load the animations, configure with delegates, return early in the case of error
+   if(auto animationResult =
+      animation_system_->CreateAnimationFor(*player_,
+                                          "Walk","xbot/xbot@walking_inplace.scn","",
+                                          [](IAnimatorConfig& animPlayer)
+                                          {
+                                             animPlayer.SetAnimationTime(0);
+                                             animPlayer.SetLooping(true);
+                                          });
+      animationResult.IsError())
+   {
+      return animationResult;
+   }
+
+   if(auto animationResult =
+      animation_system_->CreateAnimationFor(*player_,
+                                             "Run","xbot/xbot@running_inplace.scn","",
+                                             [](IAnimatorConfig& animPlayer)
+                                             {
+                                                animPlayer.SetAnimationTime(0);
+                                                animPlayer.SetLooping(true);
+                                             });
+      animationResult.IsError())
+   {
+      return animationResult;
+   }
+
+
+   // set the player's animation state
+   if(auto result = player_->Animator().SetAnimation("Walk"); result.IsError())
+      return result;
+
+
+   // return OK
+   return AnimationSystem::PureResult::OK();
+}
+````
