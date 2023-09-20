@@ -18,8 +18,10 @@ header:
   og_image: /assets/images/Projects/Markov-Music/Squareish.jpg
   caption: "Chords Selected"
   actions:
+   - label: "Source"
+    url: "https://github.com/Probably-Jay/Procedural-Project/tree/main"
    - label: "Download exe"
-     url: "/download/Markov-Music.zip"
+     url: "/download/Markov-Music.zip"  
 excerpt: "Procedurally generating a game's soundtrack. Markov Chains meet Functional harmony."
 tagline: "Procedurally generating a game's soundtrack. Markov Chains meet Functional harmony."
 photo1:
