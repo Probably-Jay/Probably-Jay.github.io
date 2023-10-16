@@ -17,6 +17,8 @@ header:
   actions:
   - label: "Source"
     url: "https://github.com/Probably-Jay/AnimationSystem/tree/master"
+  - label: "Documentation"
+    url: "https://jaybretherton.xyz/AnimationSystemDocumentation/annotated.html"
 #    - label: "Download exe"
 #      url: "/download/Animation-System.zip"
 # excerpt: "Procedurally generating a game's soundtrack. Markov Chains meet Functional harmony."
@@ -30,7 +32,7 @@ photo1:
 ---
 # Anmation System 
 
-A part of a university module on game engine animaiton systems. My goal with this software was to create a system with minimum depencance on platform being used, and best possible API, so that the module could be easily inserted into any project.
+A part of a university module on game engine animaiton systems. My goal with this software was to create a system with the best possible API and with minimum depencance on platform being used, so that the module could be easily inserted into any project.
 
 What was created was a pretty powerful 2D sprite & skeletal, and 3D blend-node based skeletal animation system, with suport for IK as well as a methods for loading in the animation data. 
 
@@ -39,6 +41,8 @@ The system was created to be used with a propriety C++ engine, which is what is 
 
 {% include gallery id="photo1" caption="Animation system demonstrated with a walk/run cycle and movement-speed combined blend. Also shown with Inverse Kinematics on the hand." %}
 
+
+There were two areas of intrest for me in this project. The first being 
 
 
 ````cpp
